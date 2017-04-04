@@ -2,13 +2,13 @@ package com.mgreen
 
 class Librarian {
 
-string name
-string email
-string office
-string username
-string password
-string telephone
-string library
+String name
+String email
+String office
+String username
+String password
+String telephone
+String library
 
     static constraints = {
 

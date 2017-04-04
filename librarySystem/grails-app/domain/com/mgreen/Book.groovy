@@ -9,7 +9,7 @@ String isbn
 Date dateBorrowed
 Date returnDate
 String student
-Boolean overdue?
+Boolean overdue
 
     static constraints = {
 
@@ -20,7 +20,7 @@ Boolean overdue?
     dateBorrowed blank:false, nullable:false
     returnDate blank:false, nullable:false
     student blank:false, nullable:false
-    overdue? blank:false, nullable:false
+    overdue blank:false, nullable:false
 
     }
 }
