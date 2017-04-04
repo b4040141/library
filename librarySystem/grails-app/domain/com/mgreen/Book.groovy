@@ -2,17 +2,20 @@ package com.mgreen
 
 class Book {
 
+String bookID //added by me as PK, not in brief
 String title
 String subject
 String author
 String isbn
 Date dateBorrowed
 Date returnDate
-String student
+Student student
 Boolean overdue
+Library library //added by me as FK, not in brief
 
     static constraints = {
 
+    bookID blank:false, nullable:false //added by me as PK, not in brief
     title blank:false, nullable:false
     subject blank:false, nullable:false
     author blank:false, nullable:false
@@ -21,6 +24,7 @@ Boolean overdue
     returnDate blank:false, nullable:false
     student blank:false, nullable:false
     overdue blank:false, nullable:false
+    library blank:false, nullable:false //added by me as FK, not in brief
 
     }
 }

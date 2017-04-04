@@ -7,7 +7,8 @@ String email
 String username
 String password
 String studentid
-String course
+Course course
+Library library //added as FK by me, not in brief
 
     static constraints = {
 
@@ -17,6 +18,7 @@ String course
     password blank:false, nullable:false
     studentid blank:false, nullable:false, unique:true
     course blank:false, nullable:false
+    library blank:false, nullable:false //added as FK by me, not in brief
 
     }
 }

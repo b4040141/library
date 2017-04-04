@@ -2,9 +2,9 @@ package com.mgreen
 
 class BookReview {
 
-String book
+Book book
 Date dateCreated
-String student
+Student student
 String review
 
     static constraints = {
