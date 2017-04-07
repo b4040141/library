@@ -8,6 +8,10 @@ String openingHours
 String location
 String studySpaces
 
+String toString(){
+return nameOfBuilding
+}
+
     static constraints = {
 
     nameOfBuilding blank:false, nullable:false

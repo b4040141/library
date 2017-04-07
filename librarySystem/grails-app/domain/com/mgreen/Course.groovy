@@ -9,6 +9,10 @@ String department
 String description
 String studyMode
 
+String toString(){
+return title
+}
+
     static constraints = {
 
     title blank:false, nullable:false
