@@ -8,6 +8,8 @@ String openingHours
 String location
 String studySpaces
 
+static hasMany=[students:Student, books:Book, librarians:Librarian]
+
 String toString(){
 return nameOfBuilding
 }

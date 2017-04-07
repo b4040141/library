@@ -13,6 +13,8 @@ Student student
 Boolean overdue
 Library library //added by me as FK, not in brief
 
+static hasMany=[bookReviews:BookReview]
+
 String toString(){
 return bookID
 }

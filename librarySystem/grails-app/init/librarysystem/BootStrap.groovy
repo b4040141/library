@@ -39,7 +39,7 @@ class BootStrap {
                         telephone:'0114 239 5619',
                         library:Collegiate).save()
 
-        def CDarcy = new Librarian(name:'Charlotte Darcy',    //no second librarian coming up for some reason?
+        def CDarcy = new Librarian(name:'Charlotte Darcy',
                      email:'cdarcy@gmail.com',
                      office:'20.0.2',
                      username:'cdarcy',

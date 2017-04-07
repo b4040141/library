@@ -10,6 +10,7 @@ String studentid
 Course course
 Library library //suggested FK by me, not in brief
 
+static hasMany=[books:Book, bookReviews:BookReview]
 
 String toString(){
 return studentid
